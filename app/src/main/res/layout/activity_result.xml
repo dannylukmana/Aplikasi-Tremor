@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".result"
+    android:background="#EDEDED">
+
+    <TextView
+        android:id="@+id/judulak"
+        android:layout_marginLeft="39sp"
+        android:layout_marginTop="20sp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#444444"
+        android:text="Masukan Nilai Hasil Uji "
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@+id/judulak"
+        android:id="@+id/nilairoll"
+        android:layout_marginLeft="39sp"
+        android:layout_marginTop="20sp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#444444"
+        android:text="Input Nilai Roll"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/roll"
+        android:layout_marginTop="20sp"
+        android:layout_below="@+id/nilairoll"
+        android:textColor="#444444"
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"/>
+    <TextView
+        android:layout_below="@+id/roll"
+        android:id="@+id/nilaipitch"
+        android:layout_marginLeft="39sp"
+        android:layout_marginTop="20sp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#444444"
+        android:text="Input Nilai Pitch"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/pitch"
+        android:layout_below="@+id/nilaipitch"
+        android:textColor="#444444"
+        android:text=""
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"/>
+    <TextView
+        android:layout_below="@+id/pitch"
+        android:id="@+id/nilaiyaw"
+        android:layout_marginLeft="39sp"
+        android:layout_marginTop="20sp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#444444"
+        android:text="Input Nilai yaw"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/yaw"
+        android:textColor="#444444"
+        android:layout_below="@+id/nilaiyaw"
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"/>
+    <TextView
+        android:layout_below="@+id/yaw"
+        android:layout_margin="30sp"
+        android:id="@+id/resultjudul"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#444444"
+        android:text="Hasil Uji Tremor Anda :"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_margin="10sp"
+        android:id="@+id/resultfuzzy"
+        android:layout_below="@+id/resultjudul"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#444444"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_margin="10sp"
+        android:id="@+id/resultdesc"
+        android:layout_below="@+id/resultfuzzy"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#444444"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/tombol"
+        android:layout_below="@+id/resultfuzzy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:text="Hasil" />
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#EDEDED">
+
+    <TextView
+        android:id="@+id/Judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:text="Selamat Datang"
+        android:textColor="#444444"
+        android:textSize="30sp" />
+
+
+
+    <TextView
+        android:id="@+id/Para"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Judul"
+        android:layout_marginTop="21dp"
+        android:text="Aplikasi Uji Tremor Parkinson"
+        android:textSize="17sp"
+        android:textColor="#444444"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/Isi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Para"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="Sebelum memulai pengujian angkat dan luruskan tangan anda kedepan, Letakkan perangkat anda pada pergelangan tangan dan pangkal siku dari tangan yang sering digunakan untuk beraktifitas atau pada tangan yang memiliki gejala tremor"
+        android:textAlignment="center"
+        android:textColor="#444444"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Isi"
+        android:layout_marginTop="163dp"
+        android:layout_centerHorizontal="true"
+        android:text="Mulai Uji" />
+
+
+</RelativeLayout>
